@@ -1,0 +1,18 @@
+[project]
+name = "goit-web-hw-07"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Vita",email = "nikaangel295@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "sqlalchemy (>=2.0.38,<3.0.0)",
+    "alembic (>=1.14.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
